@@ -14,8 +14,7 @@ Directives are markers on a DOM element that tell AngularJs to attach a specifie
 | ng-disabled | sets the disable attribute on the HTML element if specified expression evalutates to true 
 | ng-if | removes or creates HTML element based on an expression 
 | ng-click | specifes custom behaviour when a element is clicked 
+<<<<<<< HEAD
 
-
-`ng-app` directive is a starting point of AngJs , it initializes the framework automatically
-**note:** ng-app directive can be placed to any of the DOM element. it is preferable to place  ng-app at the root i.e. <html> or <body> . so, it the control the entire DOM hirerchy
-
+=======
+>>>>>>> fc35d8f2dd5a921470ebe4602ccbb012ed1b944c
