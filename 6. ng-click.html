@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My AngularJS App</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+</head>
+
+<body ng-app="">
+
+    <button ng-click="cnt = cnt + 1" ng-init="cnt = 0"> Start counter! </button>
+
+    <p>The total count is {{cnt}}</p>
+    </br>
+    count is increment when the button is click each time
+
+</body>
+
+</html>
+
+<!--  
+OUTPUT 
+===========
+[Start counter!] >>button
+
+The total count is 6
+count is increment when the button is click each time
+ -->
