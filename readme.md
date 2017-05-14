@@ -32,7 +32,8 @@ Directives are markers on a DOM element that tell AngularJs to attach a specifie
 
 **note:** ng-app directive can be placed to any of the DOM element. it is preferable to place  ng-app at the root i.e. <html> or <body> . so, it the control the entire DOM hirerchy
 
-2. `ng-model` directive is used to  two way data binding. It binds <input ,<select>>  or <text area> elements to specified property on $scope object 
+2. `ng-model` directive is used to  two way data binding. It binds <input> ,<select> or <textarea> elements to specified property on $scope object 
+
 
 3. `ng-controller` : , we can attach _properties and methods_ to the _$scope_ object inside a controller function, which in turn will add/update the data and attach behavious to HTML elements
 
