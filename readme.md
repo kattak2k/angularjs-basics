@@ -23,6 +23,7 @@ Directives are markers on a DOM element that tell AngularJs to attach a specifie
 | ng-disabled | sets the disable attribute on the HTML element if specified expression evalutates to true 
 | ng-if | removes or creates HTML element based on an expression 
 | ng-click | specifes custom behaviour when a element is clicked 
+| bg-blur | tells AngJs what to do when an HTML loses focus
 
 
 `ng-app` directive is a starting point of AngJs , it initializes the framework automatically

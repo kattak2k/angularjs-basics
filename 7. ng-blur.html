@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My AngularJS App</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+</head>
+
+<body ng-app="">
+
+    <input ng-blur="cnt = cnt + 1" ng-init="cnt = 0">
+
+    <p>{{cnt}} times the input field lost focus</p>
+
+</body>
+
+</html>
+
+<!--  
+OUTPUT 
+===========
+[_______]
+
+4 times the input field lost focus
+ -->
