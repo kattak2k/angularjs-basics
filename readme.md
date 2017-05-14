@@ -37,3 +37,5 @@ Directives are markers on a DOM element that tell AngularJs to attach a specifie
 3. `ng-controller` : , we can attach _properties and methods_ to the _$scope_ object inside a controller function, which in turn will add/update the data and attach behavious to HTML elements
 
 **note:** the _$scope_ isa glue between the controller and HTML
+
+hello
