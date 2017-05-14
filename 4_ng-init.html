@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My AngularJS App</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+</head>
+
+<body>
+
+    <div ng-app="" ng-init="
+             greet='Hello maurya!';
+             amt = 100;
+             myArr = [5,6,9];
+             person = {firstName:'maurya', lastName: 'katta'} 
+             ">
+
+        {{amt}} <br/> {{myArr[1]}} <br/> {{person.firstName}} <br/>
+    </div>
+
+
+</body>
+
+</html>
+
+<!--  
+OUTPUT 
+===========
+100 
+6 
+maurya 
+ -->
