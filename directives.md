@@ -1,7 +1,7 @@
 # Directives
 Directives are markers on a DOM element that tell AngularJs to attach a specified behaviour to that DOM element or even transform the DOM element and its children.
 
-| #Directive  |  #Description 
+| Directive  |  Description 
 | --- | --- 
 | ng-app | Auto bootstap AngJs Application 
 | ng-init | initiates variables 
